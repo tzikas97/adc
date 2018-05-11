@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Insert author, date and comment</Title>
+            <Author>George Tzikas</Author>
+            <Description>Visual Studio code snippet to insert an author's name, the date and a comment in C++ projects</Description>
+            <Shortcut>adc</Shortcut>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>Author</ID>
+                    <ToolTip>Replace with the author's name.</ToolTip>
+                    <Default>Author</Default>
+                </Literal>
+                <Literal>
+                    <ID>Date</ID>
+                    <ToolTip>Replace with the current date.</ToolTip>
+                    <Default>Date</Default>
+                </Literal>
+                <Literal>
+                    <ID>Comment</ID>
+                    <ToolTip>Replace with the comment.</ToolTip>
+                    <Default>Comment</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CPP" Kind="any">
+<![CDATA[// Author: $Author$
+// Date: $Date$
+// Comment: $Comment$]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
